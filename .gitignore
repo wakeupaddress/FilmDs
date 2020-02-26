@@ -10,3 +10,7 @@
 .vagrant
 
 /vendor/
+
+.env
+
+fd-picture
