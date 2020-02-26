@@ -1,0 +1,17 @@
+h1 {
+  font-size: 20px;
+  text-align: center;
+  font-family: vardana sans-serif;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.icon {
+  text-align: center;
+  font-family: vardana sans-serif;
+  background-color: #c2edff;
+}
+
+footer{
+  text-align:center;
+}
