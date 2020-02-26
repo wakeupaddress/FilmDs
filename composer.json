@@ -1,0 +1,18 @@
+{
+    "name": "wakeup/filmds",
+    "description": "serches film's director",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wakeup",
+            "email": "wakeupaddress@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FilmDs\\" : "app/"
+        }
+    },
+    "require": {}
+}
