@@ -4,16 +4,7 @@
 <meta charset="utf-8">
 <title>Search engine</title>
   <meta name = "description" content = "監督を検索するページです">
-  <style>
-
-  footer{
-  text-align:left;
-  }
-  .search {
-   text-align:center;
-  }
-
-  </style>
+  <link rel ="stylesheet" href="css/search_engine-styles.css">
 </head>
 <body>
     <h1>監督検索</h1>
