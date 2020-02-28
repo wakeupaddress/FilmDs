@@ -7,35 +7,44 @@
   <link rel ="stylesheet" href="css/search_engine-styles.css">
 </head>
 <body>
+
     <h1>監督検索</h1>
     <a class ="name"> 監督名 </a>
+    <!-- 変更前のコード
     <form method="post",>
-    <p>監督名を入力してください：<input type="text" name="name"></p>
+    <p>監督名を入力してください：<input type="text" name="name"></p> -->
+    </br><input type = "text" size = "20" placeholder = "監督名を入力してください">
     </form>
-    <a class="sex">性別</a>
     <p>
-    <input type="radio" name="q1" value="男">
-    <input type="radio" name="q1" value="女"> 
+    </br><a class="sex">性別</a>
+
+    <p>
+    <label><input type="checkbox"> 男</label>
+    <label><input type="checkbox"> 女</label>
+    <label><input type="checkbox"> その他</label>
     </p>
-    <a class="country">出身国</a>
+
+    <a class="country">出身国</a></br>
+
     <select name="name">
     <option value="サンプル1">サンプル1</option>
     <option value="サンプル2">サンプル2</option>
     <option value="サンプル3">サンプル3</option>
     </select>
-    <a class="career">活動期間</a>
-    
-    <a class="genre">ジャンル</a>
     <p>
-    <input type="checkbox" name="genre" value="アクション"> 
-    <input type="checkbox" name="genre" value="SF"> 
-    <input type="checkbox" name="genre" value="サスペンス"> 
-    <input type="checkbox" name="genre" value="コメディ"> 
-    <input type="checkbox" name="genre" value="ホラー"> 
-    <input type="checkbox" name="genre" value="アニメ"> 
-    <input type="checkbox" name="genre" value="恋愛"> 
+    </br><a class="career">活動期間</a>
+    </br><input type = "text" size= "6" placeholder = "1900"> ～ <input type = "text" size="6" placeholder = "2020">
+    <p>
+    </br><a class="genre">ジャンル</a>
+    <label><input type="checkbox" name="genre"> アクション </label>
+    <label><input type="checkbox" name="genre"> SF </label>
+    <label><input type="checkbox" name="genre"> サスペンス </label>
+    </br><label><input type="checkbox" name="genre"> コメディ </label>
+    <label><input type="checkbox" name="genre"> ホラー </label>
+    <label><input type="checkbox" name="genre"> アニメ </label>
+    <label><input type="checkbox" name="genre"> 恋愛 </label>
     </p>
-    <a class="search" a href="">監督検索</a>
+    <a class="search" a href="">検索</a>
   <footer>
     <a href = ""> 監督検索 </a>
   </footer>
