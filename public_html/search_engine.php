@@ -53,7 +53,7 @@
       <input type="submit" name="submit" value="検索">
     </form>
   <footer>
-    </br><a href = "search_result.php"> 監督検索 </a>
+    </br><a href = "top_page.php"> 監督検索 </a>
   </footer>
 </body>
 </html>
