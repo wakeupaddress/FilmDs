@@ -17,7 +17,7 @@
           // 処理を決めかねている箇所
          }else{
          $error = '日本語のみ使用可能です。';
-        //  処理を決めかねている箇所
+          echo $error;
          }
       ?>
       <p>
@@ -25,6 +25,7 @@
       <label><input type="checkbox" name ="sex" value ="<?php echo $_POST['sex']?>"> 男</label>
       <label><input type="checkbox" name ="sex" value ="<?php echo $_POST['sex']?>"> 女</label>
       <label><input type="checkbox" name ="sex" value ="<?php echo $_POST['sex']?>"> その他</label>
+      <label><input type="checkbox" name ="sex" value ="<?php echo $_POST['sex']?>"> 不明</label>
       </p>
 
       <a class="country">出身国</a></br>

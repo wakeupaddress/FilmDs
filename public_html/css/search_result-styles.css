@@ -1,0 +1,13 @@
+footer{
+  text-align:left;
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+}
+
+
+h3{
+  text-align: center;
+}
+.example li {
+  display:inline;
+}
