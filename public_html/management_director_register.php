@@ -27,7 +27,7 @@
 
       <meta name = "description" content = "管理画面へのログインページです">
 
-      <link rel ="stylesheet" href="css/management_toppage-styles.css">
+      <link rel ="stylesheet" href="css/management_director_register-styles.css">
 
     </head>
     <body>
