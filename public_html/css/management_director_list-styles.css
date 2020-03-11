@@ -43,3 +43,8 @@ a {
   color: #00BFFF;
   background-color: #E0F2F7;
 }
+
+footer{
+  position: absolute;/*絶対位置*/
+  bottom: 0; /*下に固定*/
+}

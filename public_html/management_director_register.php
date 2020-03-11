@@ -1,6 +1,6 @@
 <html>
     <head>
-      <title>management_toppage</title>
+      <title>management_register</title>
       <h1>
       <a class="tab_btn" href="#item1">監督管理</a>
       <a class="tab_btn" href="#item2">作品管理</a>
@@ -8,7 +8,34 @@
       　　　ログイン中:
       </h1>
 
-      <div class="tab_item is-active-item" id="item1">管理トップページ</div>
+      <div class="tab_item is-active-item" id="item1">
+      管理トップページ
+      </br>監督名</br>
+      <input type = "text" name="Director_name" value = "<?php echo $_POST['Director_name']?>" size = "20" placeholder = "監督名を入力してください">
+      </br>性別</br>
+      <label><input type="checkbox" name ="sex" value ="<?php echo $_POST['sex']?>"> 男</label>
+      <label><input type="checkbox" name ="sex" value ="<?php echo $_POST['sex']?>"> 女</label>
+      <label><input type="checkbox" name ="sex" value ="<?php echo $_POST['sex']?>"> その他</label>
+      <label><input type="checkbox" name ="sex" value ="<?php echo $_POST['sex']?>"> 不明</label>
+      </br>活動期間</br>
+      <input type = "text" name = "career" size= "6" placeholder = "1900" value ="<?php echo $_POST['career']?>">
+      ～ <input type = "text" name = "career"  size="6" placeholder = "2020" value ="<?php echo $_POST['career']?>">
+      </br>概要</br>
+      <!-- <textarea name="summary" value = "<?php echo $_POST['Director_name']?>" style="width:30em; height: 6em; font-size:50%" placeholder = "概要を入力してください"> -->
+      <form name ="summary">
+      <textarea name="summary" rows="3" cols="50" wrap="">こちらに概要を入力してください
+      </textarea>
+      </form>
+      ジャンル</br>
+      <label><input type="checkbox" name="genre" value ="<?php echo $_POST['genre']?>"> アクション </label>
+      <label><input type="checkbox" name="genre" value ="<?php echo $_POST['genre']?>"> SF </label>
+      <label><input type="checkbox" name="genre" value ="<?php echo $_POST['genre']?>"> サスペンス </label>
+      </br><label><input type="checkbox" name="genre" value ="<?php echo $_POST['genre']?>"> コメディ </label>
+      <label><input type="checkbox" name="genre" value ="<?php echo $_POST['genre']?>"> ホラー </label>
+      <label><input type="checkbox" name="genre" value ="<?php echo $_POST['genre']?>"> アニメ </label>
+      <label><input type="checkbox" name="genre" value ="<?php echo $_POST['genre']?>"> 恋愛 </label>
+      </br></br><input type="submit" name="submit" value="登録(更新)"></br>
+      </div>
       <div class="tab_item" id="item2">監督管理</div>
       <div class="tab_item" id="item3">ユーザー管理</div>
       <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
