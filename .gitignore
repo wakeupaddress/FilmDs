@@ -9,4 +9,6 @@
 
 .vagrant
 
-/vendor/
+vendor
+
+.env
