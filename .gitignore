@@ -10,3 +10,9 @@
 .vagrant
 
 /vendor/
+
+.env
+
+fd-picture
+
+phpMyAdmin

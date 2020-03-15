@@ -14,5 +14,7 @@
             "FilmDs\\" : "app/"
         }
     },
-    "require": {}
+    "require": {
+        "davedevelopment/phpmig": "^1.6"
+    }
 }
